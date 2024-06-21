@@ -1,7 +1,8 @@
 'use client'
-import Link from "next/link"
-import courseData from "../data/music_courses.json"
-import { BackgroundGradient } from "./ui/background-gradient"
+import Link from "next/link";
+import courseData from "../data/music_courses.json";
+import { BackgroundGradient } from "./ui/background-gradient";
+import { Button } from "./ui/moving-border";
 
 interface Course{
     id: number,
@@ -45,12 +46,16 @@ function FeaturedCourses() {
             </div>
         </div>
         <div  className="mt-20 text-center ">
-            <Link href={"/courses"}
-            
+       
+        <Link href={"/courses"}>
+
+                    <Button
+                    borderRadius="1.75rem"
                     className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-            >
-            View All courses
-            </Link>
+                    >
+                    Explore all courses
+                    </Button>
+                </Link>
         </div>
     </div>
   )
