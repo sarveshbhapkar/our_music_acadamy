@@ -3,6 +3,7 @@ import Link from "next/link";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { Button } from "./ui/moving-border";
+import {BackgroundBeamsDemo } from "./ui/background-beams"
 
 interface Course{
     id: number,
