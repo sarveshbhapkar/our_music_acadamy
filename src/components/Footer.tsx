@@ -17,7 +17,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -25,7 +25,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/about"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -74,8 +74,8 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
+          <p>Mumbai , India</p>
+          <p>Mumbai 400011</p>
           <p>Email: info@musicschool.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
